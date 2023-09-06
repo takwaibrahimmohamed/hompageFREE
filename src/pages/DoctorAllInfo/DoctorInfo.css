@@ -1,0 +1,202 @@
+.container{
+   display: flex;
+   justify-content: space-between;
+   height: 95px;
+   margin-top: 20px;
+}
+.container .left{
+    display: flex;
+}
+.container .left .logo{
+    height: 4rem;
+    width: 10rem;
+    margin-right: 50px;
+    margin-left: 1rem;
+    cursor: pointer;
+    padding: 5px;
+}
+.container .left .links{
+    display: flex;
+    gap: 10px;
+}
+.container .left .link{
+    text-decoration: none;
+    color:  "#000";
+    margin-left: 16px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+}
+.container .right{
+    display: flex;
+    gap: 20px;
+ 
+}
+.container .right .langbox{
+    display: flex;
+  
+    align-Items:center;
+    gap:6px;
+    margin-right:10px;
+    margin-top: -30px;
+}
+
+ .doctorLogin{
+    margin-left:10px;
+    background:linear-gradient(#0019FB, #E409E8);
+   
+    border-radius:15px;
+    padding:5px 20px;
+    font-size:20px;
+    width:120px;
+    height: 40px;
+    text-transform:capitalize;
+    font-weight:500;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    border:2px solid #E409E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herosection{
+  
+   
+    background: url("../../assets/Rectangle 162.png");
+    background-repeat: no-repeat;
+   
+    padding: 10px 20px;
+    margin: 0 20px;
+    background-size: contain;
+    position: relative;
+    display: flex;
+    
+  
+    color: white;
+}
+.image{
+    position: relative;
+}
+.image img{
+width: 72%;
+}
+.info{
+    font-family: 'Poppins', sans-serif;
+   margin-top: 30px;
+  
+   text-align: start;
+   
+}
+/* doctorDetails */
+.doctorDetails{
+background-color: #F6F6F6;
+min-height: 100vh;
+width: 80%;
+margin: -40px auto;
+position: relative;
+z-index: 111;
+border-radius: 22px;
+margin-bottom: 40px;
+padding-bottom: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.header .headerInfo{
+    display: flex;
+ gap: 30px;
+}
+.header .headerInfo h2{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.doctorDetails .form{
+ display: flex;
+ justify-content: center;
+}
+.doctorDetails .form form{
+display: flex;
+flex-direction: column;
+gap: 40px;
+width: 700px;
+
+justify-content: center;
+align-items: center;
+
+}
+.doctorDetails .form form .inp{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.doctorDetails .form form .inp label{
+    font-size: 18px;
+font-weight: 400;
+font-family: 'Poppins', sans-serif;
+}
+.doctorDetails .form form .inp input{
+    padding: 20px 10px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #9E9E9E;
+    border-radius: 12px;
+}
+.doctorDetails .form form .condition{
+    padding-bottom:50px !important;
+    border-top: 1px solid red !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    margin-top: -10px !important;
+    overflow-wrap: break-word;
+    border: none !important;
+}
+.doctorDetails .form form .condition::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    
+    color: black;
+  
+}
+/* youtupeec */
+.youtupsec{
+    width: 70%;
+    margin: 40px auto;
+    position: relative;
+    margin-bottom: 40px;
+}
+.youtupsec h2{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.youtupsec .youTupeBox{
+    display: flex;
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    gap: 10px;
+}
+.youtupsec .youTupeBox .box{
+    position: relative;
+}
+.text{
+    display: flex;
+}
+.youtupsec .youTupeBox svg,.text{
+    color: red;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,50%);
+    font-size: 30px;
+
+}
